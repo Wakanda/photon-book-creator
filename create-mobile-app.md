@@ -23,7 +23,7 @@ Click on Run and track the progress on the Studio console:
 
 The simulator starts automatically and loads your app:
 
-<img height="350px;" src="img/mobile-simulator.png" />
+<img height="600px;" src="img/mobile-simulator.png" />
 
 ## Build your app binaries
 
