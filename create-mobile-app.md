@@ -32,3 +32,5 @@ The simulator starts automatically and loads your app:
 Build your app and click on the link to open the generated files:
 
 <img src="img/console-mobile-build.png" />
+
+Test
