@@ -5,27 +5,20 @@
 <h1>Design your data model</h1>
 </header>
 
-## 1 - Open your model
+## 1. Open your model
+
+Double-click the model file in your project’s database folder (as shown below) or click on the <img class="inline" src="img/model-designer-shortcut.png"> button to access your project’s model.
 
 <img src="img/model-designer-explorer.png" />
-`database/model.waModel`
 
-> **TIPS**: 
-> - click on <img class="inline" src="img/explorer-settings-shortcut.png"> to change the view options (the `.waModel` extension is hidden by default)
-> - click on <img class="inline" src="img/model-designer-shortcut.png"> to quickly access your model
+## 2. Add classes and attributes
 
-## 2 - Design your data model
+Add classes and attributes to your data model directly in the Data Model Editor (as shown below) or by using the [Datastore API](http://doc.wakanda.org/home2.en.html/Datastore/Datastore.100-588923.en.html){:target="_blank"}. Once you have designed your data model, save it.
 
 <img src="img/model-designer.png" />
 
-[Learn more »](http://doc.wakanda.org/home2.en.html#/Datastore-Model-Designer/Datastore-Model-Designer.100-1051416.en.html){:target="_blank"}
+For more information about designing a data model, refer to the [Datastore Model](http://doc.wakanda.org/home2.en.html/Wakanda/0.v10/Datastore-Model.200-1102147.en.html#/Wakanda/0.v10/Datastore-Model.200-1102147.en.html){:target="_blank"} chapter in the Wakanda Studio User Guide.
 
-> <img class="inline" src="img/toolbar-reload-buttons.png" />
->
-> If you need to reload your model in an already started server, a badge will appear in the Studio toolbar. Click on the squared reload button to reload the model. The second one performs a full solution reload.
-
----
-
-Now, you can quickly prototype an app to validate your model and add some data.
+Now that you have designed your data model, you can prototype your app.
 
 [Prototype your app »](prototype.html)
