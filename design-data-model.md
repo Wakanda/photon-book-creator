@@ -17,8 +17,10 @@ Add classes and attributes to your data model directly in the Data Model Editor 
 
 <img src="img/model-designer.png" />
 
-For more information about designing a data model, refer to the [Datastore Model](http://doc.wakanda.org/home2.en.html/Wakanda/0.v10/Datastore-Model.200-1102147.en.html#/Wakanda/0.v10/Datastore-Model.200-1102147.en.html){:target="_blank"} chapter in the Wakanda Studio User Guide.
+For more information about designing a data model, refer to the [Datastore Model](http://doc.wakanda.org/home2.en.html#/User-Guide/Datastore-Model.200-1102147.en.html){:target="_blank"} chapter in the Wakanda Studio User Guide.
 
-Now that you have designed your data model, you can prototype your app.
+---
+
+After designing your data model, you can prototype your app and start adding data to make sure that the data model corresponds to your needs.
 
 [Prototype your app »](prototype.html)
