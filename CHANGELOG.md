@@ -1,3 +1,12 @@
+## 1.0.3 (Feb. 25)
+
+- Fix Live reload on Run Page in Windows Studio
+- Fix Model Designer combobox style [#35](https://github.com/Wakanda/wakanda-issues/issues/35)
+- Fix Autocompletion suggestions on multiple DataClasses
+- Fix Code Editor indentation visual hint for spaces
+- Fix Override via API of inherited attributes
+- Fix Console link to nodejs installation page
+
 ## 1.0.2 (Feb. 19)
 
 - Fix : Loading large projects freezes the studio
