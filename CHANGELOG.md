@@ -3,7 +3,7 @@
 
 # Change log
 
-## Pre-release 1.1.0 (upcoming)
+## 1.1.0 (Sept. 22)
 
 - [Web] New support of Angular 2
 - [Mobile] New support of Ionic 2

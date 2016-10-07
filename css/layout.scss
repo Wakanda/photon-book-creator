@@ -1,7 +1,6 @@
 ---
 ---
 
-$nav-width: 250px;
 
 html {
   padding: 0;
@@ -13,11 +12,6 @@ body {
 }
 
 nav {
-  width: $nav-width;
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
   min-height: 100%;
 
   h1, h2, ul, ol {
@@ -53,8 +47,6 @@ nav {
 }
 
 section {
-  margin-left: $nav-width + 1;
-  width:auto;
   float: none;
   min-height: 100%;
   text-align: justify;
@@ -76,22 +68,32 @@ section {
 }
 
 footer {
-  margin: 40px 0 0 $nav-width;
+  margin-top: 40px;
   padding: 40px 0 40px 40px;
   p {
     margin: 0;
   }
 }
 
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+} 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
 @media print, screen and(max-width: 650px) {
   
   nav {
-    float: none;
-    position: static;
-    width: auto;
-    margin-left: 0;
-    width: 100%;
-    
     h1 {
       padding-top: 15px;
     }
@@ -102,20 +104,12 @@ footer {
   }
   
   section {
-    float: none;
-    position: static;
-    width: auto;
-    margin-left: 0;
     border-width: 1px 0;
     margin: 0 0 20px;
     padding: 0;
   }
   
   footer {
-    float: none;
-    position: static;
-    width: auto;
-    margin-left: 0;
     padding: 0 0 15px 15px;
   }
   

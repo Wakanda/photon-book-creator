@@ -48,6 +48,11 @@ h1 {
 
 h2 {
   color:#393939;
+  font-size:25px;
+}
+
+h3 {
+    font-size:20px;
 }
 
 h3, h4, h5, h6 {
@@ -123,6 +128,26 @@ img {
   max-width:100%;
 }
 
+.announcement {
+  background-color: #f3f3f3;
+  padding: 9px;
+  margin-bottom: 25px;
+  p {
+    color: black;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: underline;
+    &:hover {
+      color: #535353;
+    }
+  }
+} 
+
 header {
   width:270px;
   float:left;
@@ -189,7 +214,6 @@ header ul a strong {
 }
 
 section {
-  width:500px;
   float:right;
   padding-bottom:50px;
 }

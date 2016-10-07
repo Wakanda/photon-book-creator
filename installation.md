@@ -32,7 +32,7 @@ For example, you'll need _Xcode_ to create iOS apps or _Android SDK_ for Android
 
 Do you need help? Open the _Mobile Troubleshooting App_ from the console or the main menu (_Help_ > _Wakanda Mobile Troubleshooting_). Then, detect and fix common issues:
 
-<img src="img/install-requirements.gif"/>
+<img class="gif" src="img/install-requirements.png">
 
 ## Increase your productivity
 

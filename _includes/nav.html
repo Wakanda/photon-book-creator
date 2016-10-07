@@ -1,23 +1,41 @@
-<h1><a href="index.html">{{ site.name }}</a></h1>
-<hr class="star-light">
+<div class="hidden-sm-down">
+    <h1><a href="index.html">{{ site.name }}</a></h1>
+    <hr class="star-light">
 
-{% for entry in site.data.toc.entries %}
-    {% for node in entry.pages %}
-        {% if page.url contains node.url %}
-            {% assign chapter_title = entry.title %}
-        {% endif %}
+    {% for entry in site.data.toc.entries %}
+        {% for node in entry.pages %}
+            {% if page.url contains node.url %}
+                {% assign chapter_title = entry.title %}
+            {% endif %}
+            {% if page.url == '/' %}
+                {% assign chapter_title = '' %}
+            {% endif %}
+        {% endfor %}
     {% endfor %}
-{% endfor %}
 
-{% for entry in site.data.toc.entries %}
-<h2 {% if chapter_title == entry.title %} class="active" {% endif %}>
-    {{ entry.title }}
-</h2>
-<ul class="{{ entry.class }}">
-    {% for node in entry.pages %}
-    <li {% if page.url contains node.url %} class="active" {% endif %}>
-        <a href="{{ node.url }}" target="{{ node.target }}">{{ node.title }}</a>
-    </li>
+    {% for entry in site.data.toc.entries %}
+    <h2 {% if chapter_title == entry.title %} class="active" {% endif %}>
+        {{ entry.title }}
+    </h2>
+    <ul class="{{ entry.class }}">
+        {% for node in entry.pages %}
+        <li {% if page.url contains node.url %} class="active" {% endif %}>
+            <a href="{{ node.url }}" target="{{ node.target }}">{{ node.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
     {% endfor %}
-</ul>
-{% endfor %}
+</div>
+
+<div class="hidden-md-up">
+    <select onChange="window.location.href=this.value">
+    <option disabled selected value>&#x2630; Menu</option>
+    {% for entry in site.data.toc.entries %}
+        <optgroup label="{{ entry.title }}">
+            {% for node in entry.pages %}
+            <option value="{{ node.url }}">{{ node.title }}</option>
+            {% endfor %}
+        </optgroup>
+    {% endfor %}
+	</select>
+</div>

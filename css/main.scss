@@ -1,10 +1,12 @@
 ---
 ---
 
+@import url(lib/bootstrap/bootstrap.min.css);
 @import url(themes/{{ site.themes.general }}/theme.css);
 @import url(layout.css);
 @import url(themes/{{ site.themes.general }}/overrides.css);
 @import url(code/{{ site.themes.code }}.css);
+@import url(lib/gifplayer.css);
 
 html {
   min-height: 100%;
@@ -20,7 +22,6 @@ img.inline {
 
 nav {
   background: #fff;
-  border-right: 1px solid #dddddd;
 
   .fa {
     font-size: 14px;
@@ -35,9 +36,11 @@ nav {
     color:#555;
   }
 
+  ul, h1, h2 {
+    padding: 0;
+  }  
   li a {
     color:#14a1c8;
-    line-height:28px;
   }
 }
 
