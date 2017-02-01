@@ -5,10 +5,15 @@
 
 ## Table of contents
 
+- [Choose your template](#choose-your-template)
 - [Preview in the Studio](#preview-in-the-studio)
 - [Run on a simulator](#run-on-a-simulator)
 - [Run on your devices](#run-on-devices)
 - [Build your app](#build-your-app)
+
+## Choose your template
+
+Select a template from the list of the mobile templates:
 
 ## Preview in the Studio
 
