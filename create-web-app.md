@@ -4,21 +4,26 @@
 # Create a web app
 
 ## Table of contents
-
+- [Select your template](#select-your-template)
 - [Run your web application](#run-your-web-application)
 - [Customize the panels](#customize-the-panels)
 - [Enable live reload](#enable-live-reload)
 - [Code your Angular application](#code-your-angular-application)
 
-## 1 - Run your web application
+## 1 - Select your web app template
+
+Choose a template from the list of web app templates
+
+<img src="img/web-app-select-template">
+
+## 2 - Run your web application
 
 Click on the _Run Page_ toolbar button:
 
 <img src="img/web-run-page.png"/>
 
-[Activate live reload](installation.html#increase-your-productivity) to reload automatically the page after any file changes occur.
 
-## 2 - Customize the panels
+## 3 - Customize the panels
 
 Open the right panel from the toolbar toggles:
 
@@ -32,7 +37,11 @@ To open your application in your default browser, set this preference via _Run P
 
 <img src="img/web-run-dropdown.png" />
 
-## 4 - Code your Angular application
+## 4 - Enable live reload
+
+[Activate live reload](installation.html#increase-your-productivity) to reload automatically the page after any file changes occur.
+
+## 5 - Code your Angular application
 
 <img src="http://wakanda.github.io/angular-wakanda/images/angular-wakanda.png" />
 
